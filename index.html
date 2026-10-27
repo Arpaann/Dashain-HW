@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studyroom — Class XII NEB Dashain Homework 2083</title>
+  <meta name="description" content="Studyroom: Complete Grade 12 NEB Dashain Homework 2083 by Arpan Bhattarai, Fluorescent SS/+2 College. Physics, Biology, English, Nepali, Computer Science, Mathematics, and Chemistry.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C6F432' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z'/><path d='M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z'/></svg>">
+  
+  <!-- Google Fonts: Inter, Noto Sans Devanagari, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- KaTeX CSS & JS for LaTeX Math Rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Print Header (Visible only when printed) -->
+  <div class="print-header">
+    <div class="print-title">Studyroom — Class XII NEB Dashain Vacation Homework (2083)</div>
+    <div class="print-meta">Student: Arpan Bhattarai | Class: XII A1 | Roll No: 10 | Faculty: Science | Fluorescent SS/+2 College, Tokha-08, Kathmandu</div>
+    <div id="print-subject-name" class="print-subject"></div>
+  </div>
+
+  <!-- Top App Bar -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <button id="menu-btn" class="icon-btn mobile-only" aria-label="Toggle navigation menu">
+        <i data-lucide="menu"></i>
+      </button>
+      <a href="#" id="brand-link" class="brand">
+        <span class="brand-logo">
+          <i data-lucide="book-marked"></i>
+        </span>
+        <div class="brand-text">
+          <span class="brand-name">Studyroom</span>
+          <span class="brand-badge">NEB 2083</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="topbar-center">
+      <button id="search-trigger" class="search-bar-btn" aria-label="Search homework">
+        <i data-lucide="search" class="search-icon"></i>
+        <span class="search-placeholder">Search across all subjects & questions...</span>
+        <kbd class="search-shortcut">⌘K</kbd>
+      </button>
+    </div>
+
+    <div class="topbar-right">
+      <!-- Top App Icons from Linktree -->
+      <div class="topbar-social-icons">
+        <a href="https://linktr.ee/NapraB" target="_blank" rel="noopener noreferrer" class="social-icon-btn linktree-icon" title="Linktree (NapraB)">
+          <i data-lucide="external-link"></i>
+        </a>
+        <a href="https://open.spotify.com/artist/0cGXlzy9d3D8IBrAsWTM9k?si=DkAy34XARBuqlxCESmuTZg" target="_blank" rel="noopener noreferrer" class="social-icon-btn spotify-icon" title="Spotify (ARPN$)">
+          <i data-lucide="disc"></i>
+        </a>
+        <a href="https://instagram.com/napra0_0" target="_blank" rel="noopener noreferrer" class="social-icon-btn instagram-icon" title="Instagram (@napra0_0)">
+          <i data-lucide="instagram"></i>
+        </a>
+        <a href="https://tiktok.com/@napra.0_0" target="_blank" rel="noopener noreferrer" class="social-icon-btn tiktok-icon" title="TikTok (@napra.0_0)">
+          <i data-lucide="video"></i>
+        </a>
+        <a href="https://www.youtube.com/@Napra0_0" target="_blank" rel="noopener noreferrer" class="social-icon-btn youtube-icon" title="YouTube (@Napra0_0)">
+          <i data-lucide="youtube"></i>
+        </a>
+        <a href="https://github.com/Arpaann" target="_blank" rel="noopener noreferrer" class="social-icon-btn github-icon" title="GitHub (@Arpaann)">
+          <i data-lucide="github"></i>
+        </a>
+        <a href="https://discord.gg/QAdnPr5T" target="_blank" rel="noopener noreferrer" class="social-icon-btn discord-icon" title="Discord">
+          <i data-lucide="message-circle"></i>
+        </a>
+      </div>
+
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark/light mode" title="Toggle theme">
+        <i data-lucide="sun" class="sun-icon"></i>
+        <i data-lucide="moon" class="moon-icon"></i>
+      </button>
+      <button id="print-btn" class="btn btn-secondary btn-sm print-action" title="Print or save active subject as PDF">
+        <i data-lucide="printer"></i>
+        <span class="desktop-text">Print / PDF</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Layout -->
+  <div class="app-layout">
+    <!-- Sidebar Navigation -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-header">
+        <div class="student-mini-card">
+          <img src="assets/avatar.jpg" alt="Napra" class="student-avatar-img" onerror="this.src='https://ugc.production.linktr.ee/0c6089ca-1602-40b6-8ed5-73d94a627d8b_d3c73ac77580753336cc576fdc060de0-tplv-tiktokx-cropcenter-1080-1080.jpeg'">
+          <div class="student-info">
+            <span class="student-name">Napra</span>
+            <span class="student-meta">@NapraB · 🕷️🕸️</span>
+          </div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">SUBJECTS</div>
+        <ul id="subject-nav-list" class="subject-nav-list">
+          <!-- Dynamically populated from HOMEWORK_DATA -->
+        </ul>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="school-label">
+          <i data-lucide="graduation-cap"></i>
+          <span>Fluorescent SS/+2 College</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Overlay for mobile drawer -->
+    <div id="drawer-overlay" class="drawer-overlay"></div>
+
+    <!-- Main Content Area -->
+    <main class="main-content" id="main-content">
+      <!-- Container for Landing View or Subject View -->
+      <div id="content-container" class="content-container">
+        <!-- Rendered by app.js -->
+      </div>
+
+      <!-- Verified Social Footer from Linktree -->
+      <footer class="app-footer">
+        <div class="footer-inner">
+          <div class="footer-top">
+            <div class="footer-brand">
+              <div class="footer-avatar-row">
+                <img src="assets/avatar.jpg" alt="Napra" class="footer-avatar" onerror="this.src='https://ugc.production.linktr.ee/0c6089ca-1602-40b6-8ed5-73d94a627d8b_d3c73ac77580753336cc576fdc060de0-tplv-tiktokx-cropcenter-1080-1080.jpeg'">
+                <div>
+                  <span class="footer-title">Napra <span class="footer-spider">🕷️🕸️</span></span>
+                  <p class="footer-desc">@NapraB · ARPN$ · Artist, Creator & Developer</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Profile Links from https://linktr.ee/NapraB -->
+            <div class="footer-social-links">
+              <a href="https://linktr.ee/NapraB" target="_blank" rel="noopener noreferrer" class="social-link featured-link" title="Linktree (@NapraB)">
+                <i data-lucide="external-link"></i>
+                <span>Linktree</span>
+              </a>
+              <a href="https://open.spotify.com/artist/0cGXlzy9d3D8IBrAsWTM9k?si=DkAy34XARBuqlxCESmuTZg" target="_blank" rel="noopener noreferrer" class="social-link" title="Spotify (ARPN$)">
+                <i data-lucide="disc"></i>
+              </a>
+              <a href="https://music.apple.com/us/artist/arpn%24/1877263805" target="_blank" rel="noopener noreferrer" class="social-link" title="Apple Music (ARPN$)">
+                <i data-lucide="music-2"></i>
+              </a>
+              <a href="https://soundcloud.com/arpn-330192001" target="_blank" rel="noopener noreferrer" class="social-link" title="SoundCloud">
+                <i data-lucide="radio"></i>
+              </a>
+              <a href="https://instagram.com/napra0_0" target="_blank" rel="noopener noreferrer" class="social-link" title="Instagram (@napra0_0)">
+                <i data-lucide="instagram"></i>
+              </a>
+              <a href="https://tiktok.com/@napra.0_0" target="_blank" rel="noopener noreferrer" class="social-link" title="TikTok (@napra.0_0)">
+                <i data-lucide="video"></i>
+              </a>
+              <a href="https://www.youtube.com/@Napra0_0" target="_blank" rel="noopener noreferrer" class="social-link" title="YouTube (@Napra0_0)">
+                <i data-lucide="youtube"></i>
+              </a>
+              <a href="https://github.com/Arpaann" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub (@Arpaann)">
+                <i data-lucide="github"></i>
+              </a>
+              <a href="https://discord.gg/QAdnPr5T" target="_blank" rel="noopener noreferrer" class="social-link" title="Discord">
+                <i data-lucide="message-circle"></i>
+              </a>
+              <a href="https://www.twitch.tv/arpanbhattarai" target="_blank" rel="noopener noreferrer" class="social-link" title="Twitch">
+                <i data-lucide="tv"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/arpan-bhattarai-8b63ba370/" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                <i data-lucide="linkedin"></i>
+              </a>
+              <a href="https://www.pinterest.com/Arpn" target="_blank" rel="noopener noreferrer" class="social-link" title="Pinterest (@Arpn)">
+                <i data-lucide="image"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p class="footer-copy">Made by <strong>Arpan Bhattarai</strong> (Napra) · <a href="https://linktr.ee/NapraB" target="_blank" rel="noopener noreferrer">linktr.ee/NapraB</a></p>
+            <p class="footer-subcopy">Studyroom · Class XII NEB Dashain Vacation Homework 2083</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Search Modal -->
+  <div id="search-modal" class="search-modal" aria-hidden="true">
+    <div class="search-modal-backdrop" id="search-backdrop"></div>
+    <div class="search-modal-box">
+      <div class="search-input-wrapper">
+        <i data-lucide="search" class="search-modal-icon"></i>
+        <input type="text" id="search-input" placeholder="Search questions, answers, derivations, C code, Nepali..." autocomplete="off">
+        <button id="search-clear-btn" class="icon-btn search-clear-btn" aria-label="Clear search" style="display:none;">
+          <i data-lucide="x"></i>
+        </button>
+        <span class="esc-badge">ESC</span>
+      </div>
+
+      <div id="search-results-container" class="search-results-container">
+        <div class="search-empty-state">
+          <i data-lucide="search" class="empty-icon"></i>
+          <p>Type to search across all 7 subjects and 300+ questions & answers...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Scroll to top" title="Back to top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <!-- Subject Data Files -->
+  <script src="data/physics.js"></script>
+  <script src="data/biology.js"></script>
+  <script src="data/english.js"></script>
+  <script src="data/nepali.js"></script>
+  <script src="data/computer.js"></script>
+  <script src="data/maths.js"></script>
+  <script src="data/chemistry.js"></script>
+  <script src="data/index.js"></script>
+
+  <!-- Main Frontend Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>

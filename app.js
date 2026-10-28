@@ -416,7 +416,7 @@
         questionsHtml += `
           <article class="qa-item" id="${q.id}">
             <div class="qa-header">
-              <h2 class="question-text">Question ${q.number}. ${escapeHtml(q.question)}</h2>
+              <h2 class="question-text">Question ${q.number}. ${escapeHtml(q.question).replace(/\n/g, "<br>")}</h2>
               <div class="qa-actions">
                 <button class="action-btn copy-qa-btn" title="Copy Question and Answer" data-qid="${q.id}">
                   <i data-lucide="copy"></i>
